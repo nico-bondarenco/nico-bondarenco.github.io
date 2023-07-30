@@ -1,1 +1,107 @@
-"Hello World" 
+<!DOCTYPE html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Curriculum Vitae</title>
+    <link href="Actividad 3-3-1.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+    <div id="fotocara">
+        <img src="fotocara.jpg" alt="Si lees esto es porque se rompió algo o revisaste el código je" width="220px">
+    </div>
+    <h1 id="titulo">Nicolás Bondarenco</h1>
+    <h2>Estudiante</h2>
+
+    <p> Me interesan temas como la ingeniería, la química, y la resolución de problemas - tanto informáticos como
+        prácticos.</p>
+
+    <hr>
+    <h2>Índice</h2>
+    <div class="centrado">
+        <ul class="oblicuo" id="indice">
+            <li><a href="#">Experiencia profesional</a></li>
+            <li><a href="#">Habilidades y conocimientos</a></li>
+            <li><a href="#">Educación</a></li>
+            <li><a href="#">Contactar</a></li>
+        </ul>
+    </div>
+
+    <hr>
+
+    <h2>Experiencia profesional</h2>
+
+    <table id="experiencia">
+        <thead>
+            <tr>
+                <th>Empresa/Organización</th>
+                <th>Cargo</th>
+                <th>Localizacion</th>
+                <th>Desde-Hasta</th>
+            </tr>
+        </thead>
+        <tr>
+            <td>Empresa salteña S.R.L.</td>
+            <td>Administrador</td>
+            <td>Salto</td>
+            <td>Diciembre 2019 - Abril 2021</td>
+        </tr>
+
+    </table>
+    <br>
+    <hr>
+
+    <h2>Habilidades y conocimientos</h2>
+
+    <ul>
+        <li><span class="negrita">Desarrollo web:</span class="negrita"> HTML5, CSS3, JavaScript (un poquito)</li>
+        <li><span class="negrita">Simuladores:</span class="negrita"> Aspen, Matlab</li>
+        <li><span class="negrita">Idiomas:</span class="negrita"> Inglés avanzado, alemán básico</li>
+        <li><span class="negrita">Herramientas básicas:</span class="negrita"> Word, Excel, Canva</li>
+    </ul>
+
+    <hr>
+
+    <h2>Educación</h2>
+    <div>
+        <table id="educacion">
+            <thead>
+                <tr>
+                    <th>Titulo</th>
+                    <th>Entidad</th>
+                    <th>Promocion</th>
+                </tr>
+            </thead>
+            <tr>
+                <td>Bachillerato Físico-Matemático</td>
+                <td>Estado</td>
+                <td>2021</td>
+            </tr>
+            <tr>
+                <td>Fase 1 completada</td>
+                <td>Plan Ceibal (Jóvenes a programar)</td>
+                <td>2023</td>
+            </tr>
+        </table>
+    </div>
+    <br>
+    <hr>
+
+    <h2> Contactar </h2>
+    <Form>
+        <div>Para: <input type="text"></div>
+        <label for="tematica">Temática:</label>
+        <select name="tematica" id="tematica">
+            <option value="tema">-- Elige un tema --</option>
+            <option value="consulta">Consulta</option>
+            <option value="propuesta">Propuesta</option>
+            <option value="reporte">Reporte</option>
+            <option value="otro">Otro</option>
+        </select>
+        <div>Asunto:<input type="text"></div>
+        <div>Cuerpo:<textarea name="message" rows="2" cols="25"></textarea><input type="submit" value="Enviar"></div>
+    </form>
+
+</body>
+
+</html>

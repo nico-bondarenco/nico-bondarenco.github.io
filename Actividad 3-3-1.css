@@ -1,0 +1,48 @@
+html {
+    background-color: white;
+}
+
+*.centrado, h1, h2 {
+    text-align: center;
+}
+
+*.oblicuo {
+    font-style: italic ;
+}
+
+*#indice {
+    display: inline-block;
+}
+
+*#experiencia, *#educacion {
+    margin: 0 auto;
+}
+
+*.negrita {
+    font-weight: bold;
+}
+
+table {
+    border-collapse: collapse;
+}
+td, th {
+    border: 1px solid black;
+    text-align: left;
+    padding: 8px;
+}
+
+*.cara {
+    align-items: center;
+    justify-content: center;
+}
+
+*#titulo {
+    text-decoration: underline;
+}
+
+*#fotocara {
+    align-items: center;
+    justify-items: center;
+}
+
+/* La imagen no se quiere centrar, probé de todo me rindo jajajaj */ 
